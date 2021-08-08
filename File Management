@@ -1,0 +1,2 @@
+ls  # list all files and directories in the current directory
+ls -l  # get more information about listed files
