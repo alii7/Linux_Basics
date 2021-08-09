@@ -1,3 +1,13 @@
 cd ~   # go in your home directory
 cd ~username   # go in any other user's home directory
 cd -   # go in your last directory
+pwd    # see where you are
+ls dirname   # list files in a directory
+mkdir dirname   # create directory
+mkdir -p /tmp/amrood/test   # create parent directories
+rmdir dirname   # delete directory( to remove directory it should totally empty)
+cd dirname   # change directory
+cd pathname   # change directory to given path
+mv olddir newdir   # rename a directory
+ls -la  # list files and directories (-a all files,  -l long listing)
+
