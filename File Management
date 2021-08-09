@@ -1,2 +1,3 @@
 ls  # list all files and directories in the current directory
 ls -l  # get more information about listed files
+ls ch*.doc  # display all files start with "ch" and end with ".doc"
