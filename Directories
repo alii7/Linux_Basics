@@ -1,0 +1,3 @@
+cd ~   # go in your home directory
+cd ~username   # go in any other user's home directory
+cd -   # go in your last directory
