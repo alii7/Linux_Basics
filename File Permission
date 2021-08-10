@@ -1,0 +1,7 @@
+ls -l testfile  # see permission details of an existibg file
+chmod (o,u,g) (+,-,=) (r,w,x) testfile   # change permissions in symbolic mode
+chmod 124 testfile  # 4=read, 2=write, 1=execute, 3=write + execute, 5=read + execute, 6=read + write, 7=read + write + execute
+chown user filelist  # change the ownership of the file for user   (user ID can be used instead of name)
+chgrp group filelist   # change the ownership of the file for group  (group ID can be used instead of name)
+
+
