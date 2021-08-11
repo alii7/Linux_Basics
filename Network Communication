@@ -1,3 +1,9 @@
 ping hostname or ip-address    # 
 ftp = file transfer protocol
 ftp hostname or ip-address     # to able to perform various commands scuh as below:
+put filename      # uploads filename from the local machine to the remote machine
+get filename      # downloads filename from the remote machine to the local machine
+mput file list    # uploads more than one file from the local machine to the remote machine
+mget file list    # downloads more than one file from the remote machine to the local machine
+prompt off        # turns the prompt off. By default, you will receive a prompt to upload or download files using mput or mget commands
+
