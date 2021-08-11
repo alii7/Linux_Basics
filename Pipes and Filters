@@ -2,5 +2,5 @@ grep pattern file(s)   # to catch pattern within file(s)
 ls -l | grep "Aug"     # to catch pattern by using previous output via pipe
 grep options           #-v(all lines do not match), -n(matched line and its number), -l(only file names with matching lines), -c(only count of matching lines), -(upper or lowercase)
 sort file              #arranges text lines alphabetically or numerically in the file   (alphabetically by default)
-sort options           #-n(sorts numerically and ignores blanks), -r(reverses the order), -f(uppercase ond lower together), +x(ignores the first x fields then sorts lines in numeric order)
+sort options           #-n(sorts numerically and ignores blanks), -r(reverses the order), -f(uppercase ond lower together), +x(ignores the first x fields then sorts lines)
 
