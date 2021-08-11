@@ -7,4 +7,9 @@ get filename      # downloads filename from the remote machine to the local mach
 mput file list    # uploads more than one file from the local machine to the remote machine
 mget file list    # downloads more than one file from the remote machine to the local machine
 prompt off        # turns the prompt off. By default, you will receive a prompt to upload or download files using mput or mget commands
+prompt on         # turns the prompt on
+dir               # lists all the files available in the current directory of the remote machine
+cd dirname        # changes directory to dirname on the remote machine
+lcd dirname       # changes directory to dirname on the local machine
+quit              # helps logout from the current login
 
