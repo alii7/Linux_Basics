@@ -1,0 +1,3 @@
+ps      # see your own processes
+ps -f   # see more information about processes
+ps options      # -a(information about all users), -x(information without terminals), -u(additional information like -f), -e(displays extended information)
