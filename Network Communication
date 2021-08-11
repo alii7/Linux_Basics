@@ -16,3 +16,10 @@ quit              # helps logout from the current login
 Telnet is a utility that allows a computer user at one site to make a connection, login and then conduct work on a computer at another site.
 Once you login using Telnet, you can perform all the activities on your remotely connected machine. 
 
+The finger command displays information about users on a given host. The host can be either local or remote.
+Finger may be disabled on other systems for security reasons.
+
+finger         # check all the logged-in users on the local machine
+finger user    # get information about a specific user available on the local machine
+finger @machine      # check all the logged-in users on the remote machine
+finger user@machine  # get the information about a specific user available on the remote machine
