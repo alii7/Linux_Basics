@@ -3,4 +3,7 @@ ps -f   # see more information about processes
 ps options      # -a(information about all users), -x(information without terminals), -u(additional information like -f), -e(displays extended information)
 ctrl + c        # exit the command when the process is in foreground mode
 ps -f  and kill PID    # exit the command when the process is in background mode (1-learn the ID and then kill the process with ID)
+kill -9 PID            # exit the command if it ignores the normal command
+If a parent process dies, init process or orphan process becomes the new PPID.
+Zombie(Defunct) Process  # when a process is killed, ps listing may still show the process with a Z state.
 
