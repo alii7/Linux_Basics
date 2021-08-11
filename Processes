@@ -1,3 +1,6 @@
 ps      # see your own processes
 ps -f   # see more information about processes
 ps options      # -a(information about all users), -x(information without terminals), -u(additional information like -f), -e(displays extended information)
+ctrl + c        # exit the command when the process is in foreground mode
+ps -f  and kill PID    # exit the command when the process is in background mode (1-learn the ID and then kill the process with ID)
+
