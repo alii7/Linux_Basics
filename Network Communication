@@ -12,4 +12,7 @@ dir               # lists all the files available in the current directory of th
 cd dirname        # changes directory to dirname on the remote machine
 lcd dirname       # changes directory to dirname on the local machine
 quit              # helps logout from the current login
+ 
+Telnet is a utility that allows a computer user at one site to make a connection, login and then conduct work on a computer at another site.
+Once you login using Telnet, you can perform all the activities on your remotely connected machine. 
 
