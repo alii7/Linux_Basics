@@ -6,4 +6,7 @@ ps -f  and kill PID    # exit the command when the process is in background mode
 kill -9 PID            # exit the command if it ignores the normal command
 If a parent process dies, init process or orphan process becomes the new PPID.
 Zombie(Defunct) Process  # when a process is killed, ps listing may still show the process with a Z state.
-
+"Daemon" is a process that runs in the background, usually waiting for something to happen that it is capable of working with.
+top     # an interactive diagnostic tool that updates frequently and shows information about physical and virtual memory, CPU usage, load averages, and your busy processes
+Background and suspended processes are usually manipulated via job number (job ID). This number is different from the process ID and is used because it is shorter.
+In addition, a job can consist of multiple processes running in a series or at the same time, in parallel. Using the job ID is easier than tracking individual processes.
